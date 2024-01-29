@@ -8,4 +8,6 @@ elif [ $age -ge 13 -a $age -le 19 ];then
         echo " teenager "
 elif [ $age -ge 20 -a $age -lt 59 ];then
         echo " adult "
+elif [ $age -gt 60 ];then
+	echo " feature"
 fi
